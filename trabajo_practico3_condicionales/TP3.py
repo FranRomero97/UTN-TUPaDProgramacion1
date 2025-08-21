@@ -6,8 +6,7 @@ mayor : str = "Es mayor de edad" if edad_usuario > 18 else "Es menor"
 
 print (mayor)
      
-ingrese su edad18
-Es menor
+
 
 #ACTIVIDAD 2
 
@@ -17,8 +16,7 @@ calificacion = "Aprobado" if nota_alumno >= 6 else "Desaprobado"
 
 print (calificacion)
      
-ingrese nota5
-Desaprobado
+
 
 #ACTIVIDAD 3
 
@@ -30,9 +28,6 @@ if (numero % 2 == 0):
 else:
     print("Por favor, ingrese un numero par")
      
-ingrese un numero2
-Ha ingresado un numero par
-
 #ACTIVIDAD 4
 
 edad:int = int(input("ingrese su edad"))
@@ -50,9 +45,7 @@ elif (edad >= 30 and edad < 100):
     print("Adulto/a")
 
 else: print("Ingrese una edad valida")
-     
-ingrese su edad101
-Ingrese una edad valida
+    
 
 #ACTIVIDAD 5
 
@@ -63,9 +56,6 @@ if (len(contraseña) >= 8 and len(contraseña) <=14 ):
 
 else: print("Por favor, ingrese una contraseña entre 8 y 14")
      
-Ingrese la contraseña1234567
-Por favor, ingrese una contraseña entre 8 y 14
-
 #ACTIVIDAD 6
 
 from statistics import mode, median, mean
@@ -89,7 +79,6 @@ elif (media < mediana and mediana < moda):
 
      
 moda=20, mediana=20, media=20
-Sin sesgo
 
 #ACTIVIDAD 7
 
@@ -103,9 +92,6 @@ else:
    print(frase)
 
      
-Ingrese una frase: asdadasdxx
-asdadasdxx
-
 #ACTIVIDAD 8
 
 nombre : str = str(input("Ingrese su nombre: "))
