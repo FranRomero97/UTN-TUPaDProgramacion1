@@ -186,3 +186,4 @@ else:
 original = {"Argentina": "Buenos Aires", "Chile": "Santiago"}
 invertido = {capital: pais for pais, capital in original.items()}
 print(invertido)
+
