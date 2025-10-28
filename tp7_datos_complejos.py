@@ -166,12 +166,12 @@ else:
 agenda = {}
 
 while True:
-    dia = input("Ingrese el día (o 'fin' para salir): ")
-    if dia.lower() == "fin":
+    Dia = input("Ingrese el día (o 'fin' para salir): ")
+    if Dia.lower() == "fin":
         break
     hora = input("Ingrese la hora: ")
     evento = input("Ingrese el evento: ")
-    agenda[(dia, hora)] = evento
+    agenda[(Dia, hora)] = evento
 
 dia_consulta = input("Ingrese el día que desea consultar: ")
 hora_consulta = input("Ingrese la hora que desea consultar: ")
